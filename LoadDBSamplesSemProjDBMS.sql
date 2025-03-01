@@ -12,9 +12,9 @@ INSERT INTO Contractors (Name, Role, Contact, Email) VALUES
 
 -- Projects Data
 INSERT INTO Projects (Name, ClientID, ContractorID, StartDate, EndDate, Budget, Status) VALUES 
-('Kitchen Renovation', 1, 1, '2025-03-01', '2025-05-01', 15000.00, 'Ongoing'),
+('Kitchen Renovation', 1, 1, '2025-03-01', '2025-05-01', 15000.00, 'In Progress'),
 ('Gutter Restoration', 2, 1, '2025-04-01', '2025-06-01', 8000.00, 'Planned'),
-('Retaining Wall Installation', 3, 2, '2025-03-15', '2025-04-30', 12000.00, 'Ongoing'),
+('Retaining Wall Installation', 3, 2, '2025-03-15', '2025-04-30', 12000.00, 'In Progress'),
 ('Roofing Repair', 1, 3, '2025-03-20', '2025-04-15', 5000.00, 'Planned');
 
 -- Employees Data
