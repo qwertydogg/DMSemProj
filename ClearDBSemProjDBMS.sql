@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS timesheets;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS invoices;
+DROP TABLE IF EXISTS messages;
+DROP TABLE IF EXISTS documents;
+DROP TABLE IF EXISTS projects;
+DROP TABLE IF EXISTS contractors;
+DROP TABLE IF EXISTS materials;
+DROP TABLE IF EXISTS suppliers;
+DROP TABLE IF EXISTS clients;
+DROP DATABASE IF EXISTS contractormanagement;
+
