@@ -1,0 +1,44 @@
+/* App.css */
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.75rem;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 0.5rem 1rem;
+  }
+  
+  thead {
+    background-color: #f0f0f0;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 1rem 0;
+    overflow: hidden;
+  }
+  
+  .accordion-title {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .accordion-content {
+    padding: 1rem;
+    background-color: #fafafa;
+    border-top: 1px solid #ddd;
+  }
+  
